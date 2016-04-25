@@ -1,5 +1,12 @@
 # obsession.vim
 
+### This is a forked edition
+
+> This edition of [vim-obsession](https://github.com/tpope/vim-obsession) was forked in April 2016 to address two issues for my use:
+> 
+> * Invoking gvim/vim/vi without any arguments now loads an existing session automatically if there is one in the current directory.
+> * I personally prefer `.session.vim` instead of `Session.vim` to avoid clutter in my project directories.
+
 Vim features a `:mksession` command to write a file containing the current
 state of Vim: window positions, open folds, stuff like that.  For most of my
 existence, I found the interface way too awkward and manual to be useful, but
